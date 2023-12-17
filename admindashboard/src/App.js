@@ -32,7 +32,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/">
-            <Route path="login" element={<Login />} />
+            <Route path="/login" element={<Login />} />
             <Route index element={<ProtectedRoute> <Home /> </ProtectedRoute>} />
               <Route path="users">
                 <Route index element={<ProtectedRoute><List columns={userColumns}/></ProtectedRoute>} />
