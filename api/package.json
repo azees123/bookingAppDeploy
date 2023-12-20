@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
-    "build": "npm install && npm install --prefix admindashboard && npm run build --prefix admindashboard"
   },
   "keywords": [],
   "author": "",
